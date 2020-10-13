@@ -1,8 +1,8 @@
-#Absolute Paths with Node.js and TS
+# Absolute Paths with Node.js and TS
 
 **This project aims to show how to use absolute paths in node and typescript without causing any build errors on runtime.**
 
-###Build Scripts
+### Build Scripts
 
 Description      | Script                 | State
 -----------------|------------------------|-------
@@ -19,7 +19,7 @@ Webpack    | ```npm run start:wp``` |👍
 
 
 
-###Needs HELP 🙏
+### Needs HELP 🙏
 **Please help me resolve the problem with the custom webpack build**
 >**@NOTE:**
 I problem passing the env as an argument for choosing between different types of compilers.

@@ -10,7 +10,7 @@ Usual tsc build  | ```npm run build```    |👍
 Webpack build    | ```npm run build:wp``` |👍
 Custom webpack build | ```npm run build:wp-custom```| 👎
 
-###Run Scripts
+### Run Scripts
 
 Description      | Script                 | State
 -----------------|------------------------|-------

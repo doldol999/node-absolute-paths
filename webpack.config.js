@@ -1,4 +1,4 @@
-const path = require('path');
+import path from 'path';
 
 const entry = path.join(process.cwd(), 'src');
 
@@ -23,7 +23,7 @@ const resolve = {
   extensions: ['.ts', '.js'],
 }
 
-module.exports = () => ({
+export default ({
   entry,
   output,
   module: {

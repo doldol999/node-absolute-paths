@@ -1,4 +1,4 @@
-const { entry, output, resolve, rules } = require('./default');
+import { entry, output, resolve, rules } from './default';
 
 module.exports = ({
   mode: 'development',

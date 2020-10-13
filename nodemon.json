@@ -1,0 +1,13 @@
+{
+  "verbose": true,
+  "ignore": [
+    "*.test.js",
+    "*.test.ts",
+    "node_modules/**/*"
+  ],
+  "execMap": {
+    "ts": "ts-node -r tsconfig-paths/register src"
+  },
+  "watch": ["src/**/*"],
+  "ext": ".ts"
+}

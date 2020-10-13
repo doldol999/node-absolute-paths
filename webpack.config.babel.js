@@ -1,1 +1,4 @@
-export default (env) => require(`./compiler/${env}.js`);
+export default (env) => {
+  const pathModule = env.production ? 'production' : 'development';
+  return require(`./compiler/${pathModule}.js`)
+};
